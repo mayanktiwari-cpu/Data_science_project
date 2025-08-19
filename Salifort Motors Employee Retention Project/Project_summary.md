@@ -36,3 +36,13 @@ variables in the data.
 ![alt](https://github.com/mayanktiwari-cpu/Data_science_project/blob/6ca0c15cbc015570a0361bf8b7d1ac1345b0a727/Salifort%20Motors%20Employee%20Retention%20Project/Screenshot_2025-08-19-12-43-25-25_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg)
 **Heatmap that shows the correlation between the different features.**
 
+## Model Development
+Applied multiple models to find the best suitable.
+- Logistic Regression with 82% score.
+- Decision Tree with 97.43% score.
+- Random Forest with 98.18% score.
+- XGBoost with 98.35% score.
+## Results & Insights:
+<ins>Best Model:</ins> XGBoost achieved 98.35% accuracy .
+<br></br>
+satisfaction_level,number_project,tenure,last_evaluation,average_monthly_hours are the important features with high gini importance to predict employee churn.
