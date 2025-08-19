@@ -29,4 +29,6 @@ The dataset contains 15,000 rows and 10 columns .
 ## Data visualizations 
 Create plots to visualize relationships between different 
 variables in the data.
+![alt text](https://github.com/mayanktiwari-cpu/Data_science_project/blob/4a52689dce12f0752ec712763dcb3deb8bcf6fa7/Salifort%20Motors%20Employee%20Retention%20Project/Screenshot_2025-08-19-09-51-33-30_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg)
+**Box plot and Histogram to understand the relationship between average_monthly_hours and number_project.**
 ![alt text](
