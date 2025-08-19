@@ -19,4 +19,9 @@ to their leaving.
 ## Dataset 
 The dataset contains 15,000 rows and 10 columns .
 
+## Exploratory Data Analysis 
 
+- Understand your variables
+- Clean dataset (drop duplicates and missing value) and rename colums
+- Check for outliers in the data
+  
