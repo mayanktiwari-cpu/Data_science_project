@@ -24,4 +24,9 @@ The dataset contains 15,000 rows and 10 columns .
 - Understand your variables
 - Clean dataset (drop duplicates and missing value) and rename colums
 - Check for outliers in the data
-  
+  ![alt text](https://github.com/mayanktiwari-cpu/Data_science_project/blob/caa928276d8e512fe10f068f44806131ee2789bf/Salifort%20Motors%20Employee%20Retention%20Project/Screenshot_2025-08-19-08-21-04-93_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg)
+**Visualize distribution of `tenure` and detect outlier.**
+## Data visualizations 
+Create plots to visualize relationships between different 
+variables in the data.
+![alt text](
