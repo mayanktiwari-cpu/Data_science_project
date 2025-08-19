@@ -43,6 +43,13 @@ Applied multiple models to find the best suitable.
 - Random Forest with 98.18% score.
 - XGBoost with 98.35% score.
 ## Results & Insights:
-<ins>Best Model:</ins> XGBoost achieved 98.35% accuracy .
+- <ins>Best Model:</ins> XGBoost achieved 98.35% accuracy .
 <br></br>
-satisfaction_level,number_project,tenure,last_evaluation,average_monthly_hours are the important features with high gini importance to predict employee churn.
+- satisfaction_level, number_project, tenure, last_evaluation, average_monthly_hours are the important features with high gini importance to predict employee retention.
+![alt text](https://github.com/mayanktiwari-cpu/Data_science_project/blob/cc14d87ce2d2ca657e000240047a40e9bdfbb0cd/Salifort%20Motors%20Employee%20Retention%20Project/Screenshot_2025-08-19-22-11-27-40_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg)
+- More than 4 project and 250 monthly hours the employee most likely to left.
+
+## Impact:
+
+The model enables the HR Department to identify the employee who is likely to left because it is time-consuming and expensive to find, interview, and hire new
+employees, increasing employee retention will be beneficial to the company.
