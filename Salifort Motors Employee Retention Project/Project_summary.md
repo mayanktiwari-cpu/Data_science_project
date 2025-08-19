@@ -22,14 +22,14 @@ The dataset contains 15,000 rows and 10 columns .
 ## Exploratory Data Analysis 
 
 - Understand your variables
-- Clean dataset (drop duplicates and missing value) and rename colums
-- Check for outliers in the data
-  ![alt text](https://github.com/mayanktiwari-cpu/Data_science_project/blob/caa928276d8e512fe10f068f44806131ee2789bf/Salifort%20Motors%20Employee%20Retention%20Project/Screenshot_2025-08-19-08-21-04-93_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg)
-**Visualize distribution of `tenure` and detect outlier.**
+- Clean dataset (drop duplicates and missing value) and rename columns.
+- Check for outliers in the data.
+ <br>![alt text](https://github.com/mayanktiwari-cpu/Data_science_project/blob/caa928276d8e512fe10f068f44806131ee2789bf/Salifort%20Motors%20Employee%20Retention%20Project/Screenshot_2025-08-19-08-21-04-93_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg)
+<br>**Visualize distribution of `tenure` and detect outlier.**
 ## Data visualizations 
 Create plots to visualize relationships between different 
 variables in the data.
-![alt text](https://github.com/mayanktiwari-cpu/Data_science_project/blob/4a52689dce12f0752ec712763dcb3deb8bcf6fa7/Salifort%20Motors%20Employee%20Retention%20Project/Screenshot_2025-08-19-09-51-33-30_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg)
+<br>![alt text](https://github.com/mayanktiwari-cpu/Data_science_project/blob/4a52689dce12f0752ec712763dcb3deb8bcf6fa7/Salifort%20Motors%20Employee%20Retention%20Project/Screenshot_2025-08-19-09-51-33-30_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg)<br>
 **Box plot and Histogram to understand the relationship between average_monthly_hours and number_project.**
 ![alt text](https://github.com/mayanktiwari-cpu/Data_science_project/blob/8e6f93a91f0b0038ab60aec8fbccf75f88152627/Salifort%20Motors%20Employee%20Retention%20Project/Screenshot_2025-08-19-10-06-24-73_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg)
 **Scatter plot to demonstrate the effect of average_monthly_hours on satisfaction_level.**
