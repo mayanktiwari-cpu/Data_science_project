@@ -34,4 +34,5 @@ variables in the data.
 ![alt text](https://github.com/mayanktiwari-cpu/Data_science_project/blob/8e6f93a91f0b0038ab60aec8fbccf75f88152627/Salifort%20Motors%20Employee%20Retention%20Project/Screenshot_2025-08-19-10-06-24-73_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg)
 **Scatter plot to demonstrate the effect of average_monthly_hours on satisfaction_level.**
 ![alt](https://github.com/mayanktiwari-cpu/Data_science_project/blob/6ca0c15cbc015570a0361bf8b7d1ac1345b0a727/Salifort%20Motors%20Employee%20Retention%20Project/Screenshot_2025-08-19-12-43-25-25_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg)
-**Heatmap that shows the correlation 
+**Heatmap that shows the correlation between the different features.**
+
