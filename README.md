@@ -36,10 +36,10 @@ Provided actionable insights that can help businesses to analyze vast datasets a
 
 ##  Tools & Technologies Used:
 
-- Languages:  Python, SQL
+- <ins>Languages:</ins>  Python, SQL
 
-- Libraries:  Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+- <ins>Libraries:</ins>  Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 
-- Visualization:  Tableau/Jupyter Notebook
+- <ins>Visualization:</ins> Tableau/Jupyter Notebook
 
-- Version Control:  GitHub
+- <ins>Version Control:</ins>  GitHub
