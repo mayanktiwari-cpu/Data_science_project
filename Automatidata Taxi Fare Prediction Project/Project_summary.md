@@ -18,3 +18,8 @@ The goal is to build a multiple linear regression model and evaluate the model. 
 As a result of the conducted exploratory data analysis, the Automatidata data team considered trip distance and total amount as key variables to depict a taxi cab ride. The provided scatter plot shows the relationship between the two variables. This scatter plot was created in Tableau to enhance the provided visualization.
 ![alt text](https://github.com/mayanktiwari-cpu/Data_science_project/blob/7ee4e9e07c1310122bdeb020849a530454b8374d/Automatidata%20Taxi%20Fare%20Prediction%20Project/Screenshot_2025-08-24-20-02-00-22_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg)
 
+## Feature Engineering 
+° Create a new column `duration`,`mean_duration`,`mean_distance`,`rush_hour` and `day and month`.
+° Isolate modeling variables.
+° Identify correlations.
+## Model Training 
