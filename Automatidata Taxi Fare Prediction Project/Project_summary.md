@@ -52,3 +52,10 @@ Std. deviation : 3.5748
 Result interpretation:
 
 For every 3.57 miles traveled, the fare increased by a mean of \$7.13. Or, reduced: for every 1 mile traveled, the fare increased by a mean of \$2.00.
+## Impact 
+The NYC Taxi and Limousine Commission (New York City
+TLC), wants the Automatidata team to build a multiple linear regression model to predict taxi
+fares .
+
+- mean_duration and mean_distance are the best predictor for taxi fares with R^2: 86% indicating how well the model fits the data.
+- rush_hour and passenger_count are also have affect the fare_amount but not much significant.
