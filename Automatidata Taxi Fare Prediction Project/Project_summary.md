@@ -20,6 +20,23 @@ As a result of the conducted exploratory data analysis, the Automatidata data te
 
 ## Feature Engineering 
 ° Create a new column `duration`,`mean_duration`,`mean_distance`,`rush_hour` and `day and month`.
+
 ° Isolate modeling variables.
+
 ° Identify correlations.
+
+° Use StandardScaler() to standardize the variable 
 ## Model Training 
+
+Develop a multiple regression model using  passenger_count, mean_distance, mean_duration, rush_hour, VendorID_2 to train the model as independent variables and take fare_amount as dependent variable .The test set should contain 20% of the total samples. Set random_state=0.
+## Model Evaluation 
+
+Evaluate your model performance by calculating the residual sum of squares and the explained variance score (R^2). Calculate the Mean Absolute Error, Mean Squared Error, and the Root Mean Squared Error.
+
+|Model Performance |Train data |Test data |
+|-----|-----|----|
+|Coefficient of determination|0.8399|0.8682|
+|R^2|0.8399|0.8682|
+|MAE|2.1866|2.1336|
+|MSE|17.8897|14.3264|
+|RMSE|4.2296|3.7850|
