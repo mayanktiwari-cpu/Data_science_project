@@ -40,3 +40,15 @@ Evaluate your model performance by calculating the residual sum of squares and t
 |MAE|2.1866|2.1336|
 |MSE|17.8897|14.3264|
 |RMSE|4.2296|3.7850|
+
+## Results 
+### Coefficients
+|passenger_count | mean_distance| mean_duration |rush_hour | VendorID_2|
+|----|----|----|----|----|
+0 0.030825| 7.133867| 2.812115 |0.110233 |-0.054373
+
+Std. deviation : 3.5748
+
+Result interpretation:
+
+For every 3.57 miles traveled, the fare increased by a mean of \$7.13. Or, reduced: for every 1 mile traveled, the fare increased by a mean of \$2.00.
