@@ -28,6 +28,8 @@ Distance Metrics:  uses euclidean metrics.
 - The system successfully recommends top-15 movies that align with user preferences.
 - The KNN-based Collaborative Filtering model provides personalized recommendations.
 - KNN provides interpretable and scalable recommendations.
+![alt text](https://github.com/mayanktiwari-cpu/Data_science_project/blob/f84167103e53e2671641e7e2062ff200a0e0ae98/Movie%20Recommendation%20Engine/Screenshot_2025-08-25-20-14-58-74_40deb401b9ffe8e1df2f1cc5ba480b12.jpg)
+<p align="center"><mark>The top-15 recommended movies based on "Toy Story" movie.</mark></p>
 
 ## Conclusion
 
