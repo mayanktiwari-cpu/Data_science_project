@@ -47,9 +47,9 @@ Evaluate your model performance by calculating the residual sum of squares and t
 |----|----|----|----|----|
 0 0.030825| 7.133867| 2.812115 |0.110233 |-0.054373
 
-Std. deviation : 3.5748
+### Std. deviation : 3.5748
 
-Result interpretation:
+### Result interpretation:
 
 For every 3.57 miles traveled, the fare increased by a mean of \$7.13. Or, reduced: for every 1 mile traveled, the fare increased by a mean of \$2.00.
 ## Impact 
