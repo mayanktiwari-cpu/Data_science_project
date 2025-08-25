@@ -1,3 +1,5 @@
+![alt text ](https://github.com/mayanktiwari-cpu/Data_science_project/blob/46f41d544a6faec719b96eb750fc7de84fb36379/Movie%20Recommendation%20Engine/stars-movies-1200x670-1.jpg)
+
 # Movie Recommendation Engine
 ## Introduction 
 The rapid growth of digital platforms has resulted in a massive collection of movies, making it difficult for users to find content suited to their interests. A Movie Recommendation System aims to solve this problem by suggesting personalized movie options. This project leverages Collaborative Filtering and K-Nearest Neighbor (KNN) algorithms to generate recommendations based on user preferences and similarities.
