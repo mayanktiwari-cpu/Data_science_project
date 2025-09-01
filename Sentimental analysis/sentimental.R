@@ -1,0 +1,53 @@
+#Read File
+dataset = read.csv(file.choose(), header= T)
+str(dataset)
+library(tm)
+corpus=iconv(dataset$reviewText)
+corpus= Corpus(VectorSource(dataset$reviewText))
+inspect(corpus[1])
+corpus = tm_map(corpus,tolower)
+inspect(corpus[1])
+corpus = tm_map(corpus,removeNumbers)
+inspect(corpus[1])
+corpus = tm_map(corpus,removePunctuation)
+inspect(corpus[1])
+clean_dataset = tm_map(corpus,removeWords,stopwords("english"))
+inspect(clean_dataset[1])
+toSpace = content_transformer(function (x , pattern ) gsub(pattern, " ", x))
+clean_dataset = tm_map(clean_dataset, toSpace, "/")
+clean_dataset = tm_map(clean_dataset, toSpace, "@")
+clean_dataset = tm_map(clean_dataset, toSpace, "\\|")
+clean_dataset =tm_map(clean_dataset,stripWhitespace)
+<!--begin.rcode
+
+end.rcode-->
+
+
+dataset_tdm = TermDocumentMatrix(clean_dataset)
+inspect(clean_dataset[1])
+dataset_tdm
+tdm = as.matrix(dataset_tdm)
+tdm[1:5,1:5]
+row_sum= rowSums(tdm)
+row_sum
+row_sum = subset(row_sum,row_sum>100)
+tdm_df= data.frame(word=names(row_sum),freq=row_sum)
+library(dplyr)
+df=tdm_df[order(tdm_df$freq,decreasing = TRUE),]
+View(df)
+barplot(row_sum,las=2,col=rainbow(12000),width=1)
+library(syuzhet)
+get_sentiment(clean_dataset)
+set.seed(189)
+data= sample(dataset$reviewText,1000,replace =FALSE) 
+s= get_nrc_sentiment(data)
+head(s,15) 
+td<-data.frame(s)
+View(td)
+barplot(fianl$Sum_of_columns,las=2,col= rainbow(10),names.arg = fianl$Sentiment_type)
+fianl= data.frame(Sentiment_type=names(td),Sum_of_columns=colSums(td))
+View(fianl)
+sentiment_analysis= fianl[order(-fianl$Sum_of_columns),]
+View(sentiment_analysis)
+write.csv(sentiment_analysis,"sentiment_analysis.csv" ,row.names = FALSE)
+getwd
