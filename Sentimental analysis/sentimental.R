@@ -18,10 +18,6 @@ clean_dataset = tm_map(clean_dataset, toSpace, "/")
 clean_dataset = tm_map(clean_dataset, toSpace, "@")
 clean_dataset = tm_map(clean_dataset, toSpace, "\\|")
 clean_dataset =tm_map(clean_dataset,stripWhitespace)
-<!--begin.rcode
-
-end.rcode-->
-
 
 dataset_tdm = TermDocumentMatrix(clean_dataset)
 inspect(clean_dataset[1])
@@ -51,3 +47,4 @@ sentiment_analysis= fianl[order(-fianl$Sum_of_columns),]
 View(sentiment_analysis)
 write.csv(sentiment_analysis,"sentiment_analysis.csv" ,row.names = FALSE)
 getwd
+
