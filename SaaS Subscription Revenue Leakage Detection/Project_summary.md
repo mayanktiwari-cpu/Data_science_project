@@ -15,7 +15,7 @@ This project investigates **revenue leakage** in a mid-sized SaaS company with t
 - Provide actionable insights to improve **revenue realization** and **customer retention**.
 
 ## 🛠️ Tech Stack
-- **Python** (JupyterLab)
+- **Python** (JupyterNoteBook)
 - **Libraries**:
   - `pandas` – data manipulation
   - `sqlalchemy` – database queries
@@ -23,8 +23,8 @@ This project investigates **revenue leakage** in a mid-sized SaaS company with t
   - Additional packages for analytics and reporting
 
 ## 📂 Project Structure
+- `Business_Problem.md` - describe the business requirement and problem
 - `Saas_subscription_revenue_leakage.ipynb` – main notebook with analysis workflow
-- `data/` – raw and processed datasets (not included in repo for privacy)
-- `scripts/` – helper functions for ETL and reporting
-- `reports/` – generated insights and visualizations
+- `data/` – raw and processed datasets (not included in repo for privacy
+- `insights/` – generated insights and visualizations
 
