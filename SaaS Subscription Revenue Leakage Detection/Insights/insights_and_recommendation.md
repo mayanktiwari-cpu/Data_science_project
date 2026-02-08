@@ -23,7 +23,8 @@ Gateway errors, insufficient funds, and timeouts are systemic—not isolated—i
 ### Card Payments Are the Biggest Bottleneck
 
 Cards show the lowest success rates, driven primarily by timeout failures.
-<img src="SaaS Subscription Revenue Leakage Detection/Images/Screenshot 2026-02-08 113445.png" width="600" height="400"/>
+
+<img src="https://github.com/mayanktiwari-cpu/Data_science_project/blob/6e1c9fd69e5371cac430df47785b416f3bab8f4b/SaaS%20Subscription%20Revenue%20Leakage%20Detection/Images/Screenshot%202026-02-08%20113445.png" width="650" height="300"/>
 
 ### Gateway Errors Have the Highest Financial Impact
 
@@ -36,6 +37,8 @@ This is near-term, recoverable revenue requiring immediate executive attention.
 ### UPI and Wallets Are High-Performing Channels
 
 These methods deliver ~80% success rates and should be strategically encouraged.
+<img src="https://github.com/mayanktiwari-cpu/Data_science_project/blob/6e1c9fd69e5371cac430df47785b416f3bab8f4b/SaaS%20Subscription%20Revenue%20Leakage%20Detection/Images/Screenshot%202026-02-08%20001715.png" width="650" height="300"/>
+
 
 ### Enterprise Customers Are Disengaging at a Higher Rate
 
@@ -64,6 +67,8 @@ Plan downgrades, trials, and usage controls are not fully synchronized with bill
 ### Current Controls Allow Revenue Leakage to Persist
 
 Lack of enforcement between payment status and service access enables ongoing loss.
+<img src="https://github.com/mayanktiwari-cpu/Data_science_project/blob/6e1c9fd69e5371cac430df47785b416f3bab8f4b/SaaS%20Subscription%20Revenue%20Leakage%20Detection/Images/Screenshot%202026-02-08%20001758.png" width="650" height="300"/>
+
 
 ## Recommended Strategic Actions with Metrics
 
