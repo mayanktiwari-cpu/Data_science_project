@@ -23,6 +23,7 @@ Gateway errors, insufficient funds, and timeouts are systemic—not isolated—i
 ### Card Payments Are the Biggest Bottleneck
 
 Cards show the lowest success rates, driven primarily by timeout failures.
+<img src="SaaS Subscription Revenue Leakage Detection/Images/Screenshot 2026-02-08 113445.png" width="600" height="400"/>
 
 ### Gateway Errors Have the Highest Financial Impact
 
