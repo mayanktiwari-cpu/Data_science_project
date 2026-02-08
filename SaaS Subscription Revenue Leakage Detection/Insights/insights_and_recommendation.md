@@ -72,7 +72,7 @@ Lack of enforcement between payment status and service access enables ongoing lo
 
 ## Recommended Strategic Actions with Metrics
 
-- Mandate Pay-to-Use Enforcement
+### Mandate Pay-to-Use Enforcement
   
 Action: Restrict service access after repeated payment failures.
 
@@ -84,7 +84,7 @@ Recover ₹20–25M within 90 days
 
 Cut revenue leakage from 21% → <10%
 
-- Stabilize Card Payment Infrastructure
+### Stabilize Card Payment Infrastructure
 
 Action: Fix gateway timeouts and improve card success rates.
 
@@ -96,7 +96,7 @@ Reduce timeout failures from 574 → <200 transactions/month
 
 Recover ₹10M+ annually from card-related failures
 
-- Launch an Executive-Led Revenue Recovery Drive
+### Launch an Executive-Led Revenue Recovery Drive
   
 Action: Dedicated task force for failed & pending payments.
 
@@ -108,7 +108,7 @@ Close 65–70% of pending transactions from cards which is ₹0.52M highest amon
 
 Reduce pending transaction volume by 50%
 
-- Create a Revenue Leakage Command Center
+### Create a Revenue Leakage Command Center
   
 Action: Weekly executive dashboard and ownership.
 
@@ -120,7 +120,7 @@ Reduce total leakage by ₹0.5M per month
 
 Maintain leakage trend <2% MoM increase
 
-- Prioritize High-Value Plans and Accounts
+### Prioritize High-Value Plans and Accounts
   
 Action: Focus on Pro plan and high-MRR users.
 
@@ -132,7 +132,7 @@ Recover ₹1.2–1.5M from Pro users
 
 Achieve 80% recovery rate for top 10% MRR accounts
 
-- Reduce Renewal Failure Risk
+### Reduce Renewal Failure Risk
   
 Action: Pre-renewal validation and smart retries.
 
@@ -144,7 +144,7 @@ Reduce renewal failures by 30–40%
 
 Improve renewal payment success rate to >90%
 
-- Optimize Payment Strategy by Geography
+### Optimize Payment Strategy by Geography
   
 Action: Regional gateway and method optimization.
 
@@ -156,7 +156,7 @@ Improve geo-specific success rates by +10–15%
 
 Decrease gateway errors by 40% in top 5 countries
 
-- Fix Billing Logic Gaps
+### Fix Billing Logic Gaps
   
 Action: Align billing with plan changes and trial conversions.
 
@@ -168,7 +168,7 @@ Convert 25–30% of trial users into paid accounts
 
 Prevent ₹5M+ annual revenue loss from billing mismatches
 
-- Re-Engage Enterprise Customers
+### Re-Engage Enterprise Customers
   
 Action: Target inactive Enterprise users.
 
@@ -180,7 +180,7 @@ Recover ₹0.8–10M in Enterprise MRR
 
 Reduce Enterprise inactivity rate by 25%
 
-- Assign Clear Ownership and Performance KPIs
+### Assign Clear Ownership and Performance KPIs
   
 Action: Tie outcomes to leadership accountability.
 
